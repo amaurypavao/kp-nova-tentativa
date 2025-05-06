@@ -1,1 +1,4 @@
-"@vtex/prettier-config"
+{
+    "@vtex/prettier-config",
+    "endOfLine": "auto"
+}

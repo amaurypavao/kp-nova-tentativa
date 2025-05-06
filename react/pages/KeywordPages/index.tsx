@@ -27,7 +27,7 @@ const KeywordPagesList = () => {
           },
         }}
         items={data?.keywordPages ?? []}
-        onRowClick={({ rowData }) =>
+        onRowClick={({ rowData }: { rowData: KeywordPage }) =>
           (window.location.href = `/admin/keyword-pages/edit?id=${rowData.id}`)
         }
       />

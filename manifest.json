@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "vtex.styleguide": "9.x",
-    "@apollo/client": "^3.5.10"
+    "@apollo/client": "^3.5.10",
+    "vtex.apps-graphql": "2.x",
+    "vtex.messages": "1.x",
+    "graphql": "1.x"
   },
   "builders": {
     "react": "3.x",

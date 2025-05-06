@@ -1,0 +1,30 @@
+
+type KeywordPage {
+  id: ID!
+  slug: String!
+  title: String!
+  description: String
+  htmlContent: String
+}
+
+type Query {
+  keywordPages: [KeywordPage]
+  keywordPage(id: ID!): KeywordPage
+}
+
+type Mutation {
+  createKeywordPage(
+    slug: String!
+    title: String!
+    description: String
+    htmlContent: String
+  ): KeywordPage
+  updateKeywordPage(
+    id: ID!
+    slug: String
+    title: String
+    description: String
+    htmlContent: String
+  ): KeywordPage
+  deleteKeywordPage(id: ID!): Boolean
+}
