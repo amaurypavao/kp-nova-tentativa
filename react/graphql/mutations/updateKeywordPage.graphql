@@ -1,0 +1,16 @@
+mutation upsertKeywordPage(
+  $slug: String!
+  $title: String!
+  $description: String
+  $htmlContent: String
+) {
+  upsertKeywordPage(
+    slug: $slug
+    title: $title
+    description: $description
+    htmlContent: $htmlContent
+  ) {
+    id
+    slug
+  }
+}

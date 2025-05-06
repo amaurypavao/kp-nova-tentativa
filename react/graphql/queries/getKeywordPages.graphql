@@ -1,0 +1,20 @@
+query getKeywordPage(
+  $slug: String
+  $title: String
+  $description: String
+  $htmlContent: String
+  $pageSize: Int
+) {
+  getKeywordPage(
+    slug: $slug
+    title: $title
+    description: $description
+    htmlContent: $htmlContent
+  ) {
+    id
+    slug
+    title
+    description
+    htmlContent
+  }
+}

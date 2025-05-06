@@ -1,0 +1,12 @@
+{
+  "section": "storeFront",
+  "titleId": "admin/admin-example.navigation.label-group",
+  "adminVersion": 4,
+  "subSection": "Keyword Pages",
+  "subSectionItems": [
+    {
+      "labelId": "admin/admin-example.navigation.label-main",
+      "path": "/admin/kp"
+    }
+  ]
+}

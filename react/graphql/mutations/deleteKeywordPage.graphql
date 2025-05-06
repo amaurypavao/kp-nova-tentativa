@@ -1,0 +1,10 @@
+mutation deleteKeywordPage(
+  $slug: String!
+) {
+  deleteKeywordPage(
+    slug: $slug
+  ) {
+    id
+    slug
+  }
+}

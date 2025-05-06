@@ -1,0 +1,16 @@
+mutation createKeywordPage(
+  $slug: String!
+  $title: String!
+  $description: String
+  $htmlContent: String
+) {
+  createKeywordPage(
+    slug: $slug
+    title: $title
+    description: $description
+    htmlContent: $htmlContent
+  ) {
+    id
+    slug
+  }
+}
